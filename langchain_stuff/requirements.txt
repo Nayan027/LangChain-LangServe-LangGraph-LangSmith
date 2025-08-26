@@ -1,0 +1,11 @@
+langchain
+langchain-perplexity
+langchain-core
+langchain-community
+faiss-cpu
+chromadb
+
+dotenv
+streamlit
+bs4
+ipykernel
