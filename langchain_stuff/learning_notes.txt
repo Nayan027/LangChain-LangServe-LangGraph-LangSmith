@@ -1,0 +1,29 @@
+
+
+🔹 3-Piece Core (prompt | llm | output_parser) - non-RAG
+
+Use when: You don’t need external knowledge, just pure reasoning / transformation / formatting.
+
+Examples:
+- Text summarization
+- Sentiment analysis
+- Converting text to JSON format
+- Writing emails, blogs, or code snippets
+
+Flow:
+Prompt → LLM → Output Parser
+
+
+
+
+🔹 RAG Flow (create_stuff_documents_chain + create_retrieval_chain) - RAG
+
+Use when: You need to ground answers in external data (PDFs, docs, database, web, etc.).
+
+Examples:
+- Chat with your PDF/website
+- Enterprise knowledge bots
+- Customer support bots with company docs
+
+Flow:
+Query → Retriever → Stuff relevant docs into prompt → LLM
